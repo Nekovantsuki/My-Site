@@ -2,6 +2,8 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Bitter', serif;
+  color: #40514E;
+  background-color: #FDF6F0;
 }
 
 h1 {
@@ -24,22 +26,31 @@ h3 {
   font-size: 1.4rem;
 }
 
+p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
 a {
   color: #850E35;
+  font-size: 1.1rem;
+  font-family: 'Bitter', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EE6983;
 }
 
 hr {
-  border-style: none;
-  border-color: #F5C6AA;
-  border-top-style: dotted;
-  border-width: 5px;
-  width: 5%;
+  border: dotted #FFC4C4 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
-p {
-  font-size: 1.2rem;
-}
-
+/**CLASSES**/
 .top-container {
   background-color: #FCD8D4;
   padding-top: 100px;
@@ -47,30 +58,35 @@ p {
 }
 
 .middle-container {
-  background-color: #FDF6F0;
-  padding-top: 1px;
-  padding-bottom: 50px;
+  margin: 100px 0;
 }
 
 .bottom-container {
   background-color: #FFC4C4;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  line-height: 2;
+  padding: 50px 0 20px;
 }
 
-.contact-me {
-  line-height: 2;
-}
-
-.copyright {
-  color: #FDF6F0;
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 350px;
 }
 
 .bottom-cloud {
   position: absolute;
   top: 350px;
-  left: 350px;
+  left: 250px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 
 .css-img {
@@ -85,17 +101,9 @@ p {
   margin-right: 30px;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 30px;
-  right: 350px;
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .btn {
@@ -118,20 +126,12 @@ p {
 
 .btn:hover {
   background: #EE6983;
+  color: #FDF6F0;
   text-decoration: none;
 }
 
-.profile {
-  width: 50%;
-  margin: 100px auto 100px auto;
-}
+.copyright {
+  color: #FDF6F0;
+  font-size: 1rem;
 
-.skills {
-  padding-top: 50px;
-}
-
-.footer-link {
-  font-size: 1.1rem;
-  padding-left: 20px;
-  padding-right: 20px;
 }
