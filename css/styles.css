@@ -5,16 +5,26 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  color: #EE6983;
   font-family: 'Ms Madi', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
 }
 
 h2 {
   font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  color: #EE6983;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Quicksand', sans-serif;
+  color: #850E35;
+}
+
+a {
+  color: #850E35;
 }
 
 .top-container {
@@ -23,22 +33,36 @@ h3 {
   position: relative;
 }
 
-.middle-container {
+.middle-container {}
 
-}
-
-.bottom-container {
-  
-}
+.bottom-container {}
 
 .bottom-cloud {
   position: absolute;
-  top: 150px;
-  left: 450px;
+  top: 350px;
+  left: 350px;
 }
 
+.css-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.html-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 .top-cloud {
   position: absolute;
   top: 30px;
-  right: 450px;
+  right: 350px;
 }
